@@ -1,0 +1,43 @@
+# =========================
+# DATASET (WAJIB DI-IGNORE)
+# =========================
+data/train/
+data/test/
+
+# tapi tetap include file kecil ini
+!data/sample_submission.csv
+
+# =========================
+# OUTPUT / HASIL
+# =========================
+outputs/
+*.csv
+
+# =========================
+# MODEL FILES
+# =========================
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# =========================
+# PYTHON CACHE
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# ENVIRONMENT
+# =========================
+venv/
+.env
+
+# =========================
+# OS / EDITOR
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
